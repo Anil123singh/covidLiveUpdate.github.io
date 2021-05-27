@@ -1,0 +1,19 @@
+
+.card_small{
+  font-size: 80px;
+
+}
+@media(max-width: 700px)
+{
+  .card
+  {
+    width:100px;
+    height: 290px;
+    margin-right: 0;
+    float:  none;
+  }
+  .card .card_inner,
+  .card .card_back{
+    height:290px;
+  }
+}
